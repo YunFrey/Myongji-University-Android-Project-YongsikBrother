@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/yut_ConstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#323232"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/UnderBar004"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#292929"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <Button
+                android:id="@+id/btn_33_backToMenu_ran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_200"
+                android:fontFamily="@font/nexonfootballgothic_b"
+                android:text="메인메뉴"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#7C4DFF"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/UnderBar004"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TopBar004">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/yut_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/entitybackgroundgame"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/TopBar004"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#292929"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/game006_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/nexonfootballgothic_b"
+                android:gravity="center"
+                android:text="사진이름 맞추기"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewA"
+            android:layout_width="200dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/entitybackgroundgamedark"
+            android:fontFamily="@font/nexonfootballgothic_b"
+            android:gravity="center"
+            android:text="TextView"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewB"
+            app:layout_constraintEnd_toStartOf="@+id/textViewC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewC"
+            android:layout_width="200dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/entitybackgroundgamedark"
+            android:fontFamily="@font/nexonfootballgothic_b"
+            android:gravity="center"
+            android:text="TextView"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewA"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewD"
+            android:layout_width="200dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="92dp"
+            android:background="@drawable/entitybackgroundgamedark"
+            android:fontFamily="@font/nexonfootballgothic_b"
+            android:gravity="center"
+            android:text="TextView"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewB"
+            app:layout_constraintTop_toBottomOf="@+id/textViewC" />
+
+        <TextView
+            android:id="@+id/textViewB"
+            android:layout_width="200dp"
+            android:layout_height="69dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="92dp"
+            android:background="@drawable/entitybackgroundgamedark"
+            android:fontFamily="@font/nexonfootballgothic_b"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textViewD"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewA" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="395dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/entitybackgroundgamedark2"
+        android:fontFamily="@font/nexonfootballgothic_b"
+        android:gravity="center"
+        android:text="결과는?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="177dp"
+        android:layout_height="175dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

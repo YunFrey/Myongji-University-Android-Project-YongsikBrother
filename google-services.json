@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "288567261518",
+    "firebase_url": "https://sugang-de804-default-rtdb.firebaseio.com",
+    "project_id": "sugang-de804",
+    "storage_bucket": "sugang-de804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288567261518:android:0433ceb2b0cc589a6d861f",
+        "android_client_info": {
+          "package_name": "org.app.sq_game_selection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288567261518-ekiggem96996t7ncte9iggtg14krkgvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.app.sq_game_selection",
+            "certificate_hash": "6a58af5b19a24f8b63ceff0be66908eb91a24a09"
+          }
+        },
+        {
+          "client_id": "288567261518-bikijeskq2lp9fa2fb9gotvn93pr1a6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvp8S7tpp89PPVkxyXokNZl4QcMIgLhrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288567261518-bikijeskq2lp9fa2fb9gotvn93pr1a6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
