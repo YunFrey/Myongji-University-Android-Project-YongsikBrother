@@ -2,6 +2,8 @@
 명지대학교 객체지향언어 강의에서 기말 프로젝트로 제작한 어플
 
 프로젝트명 : SQ_Game_Select
+소스 경로 : src/main/java/org/app/sq_game_selection
+
 
 [Splashscreen]
 onCreate 생명주기 시 앱의 로딩화면을 띄우고 Task 를 Clear 한다.
@@ -26,9 +28,9 @@ onCreate 생명주기 시 앱의 로딩화면을 띄우고 Task 를 Clear 한다
 [picpic_MainActivity.java / picpic_ResultActivity.java] - 사진의 인물 맞추기 게임 (조성진님 제작)
 
 [sqgameselect.java] - 게임의 메인화면 메뉴와 일부 주요기능 구성
-> 팀 구성
-> 설정
-> 팀 점수 조정
-> 팀 점수 확인
+팀 구성
+설정
+팀 점수 조정
+팀 점수 확인 등
 
 [word_MainActivity.java / word_SubActivity.java] - 사자성어 이어맞추기 게임 (양동근님 제작)
